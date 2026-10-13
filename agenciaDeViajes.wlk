@@ -13,7 +13,9 @@ method provinciaDestino(){}
 }
 
 class PackInternacionales inherits Pack{
+var esDeInteres = false
 method paisDestino(){}
+method esDeInteres(){}
 method listaDeActividades(){}
 override method coordinador(){}
 }
